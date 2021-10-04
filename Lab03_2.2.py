@@ -1,3 +1,9 @@
+#Actividad 2.2: Realizar un programa que, tomando como entrada un fichero de texto, obtenga como salida otro fichero con los mismos contenidos que el de entrada mas una línea adicional
+#El fichero de texto de salida debe tener estas características
+#-Comienza exactamente por los mismos contenidos del fichero de entrada
+#-Incluye a continuación una línea que debe contener exactamente el resumen SHA-256 (en versión hexadecimal con minúsculas, hex:) del fichero original
+
+
 import hashlib, sys, shutil
 
 #Códigos de colores.
