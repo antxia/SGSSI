@@ -1,3 +1,5 @@
+#Actividad 2.1: Realizar un programa que obtenga el resumen SHA-256 de un fichero de texto
+
 import hashlib, sys
 
 #Códigos de colores.
