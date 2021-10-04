@@ -1,4 +1,4 @@
-#Realizar un programa que, tomando como entrada un fichero de texto, obtenga como salida un nuevo fichero con las siguientes características
+#Actividad 1.1: Realizar un programa que, tomando como entrada un fichero de texto, obtenga como salida un nuevo fichero con las siguientes características
 #El fichero de texto de salida debe:
 #-Comenzar exactamente por los mismos contenidos del fichero de entrada
 #-Incluir a continuación una línea adicional con una secuencia de 8 caracteres en hexadecimal (se utilizará la representación en minúsculas de las letras a-z)
