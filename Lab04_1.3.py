@@ -1,3 +1,10 @@
+#Actividad 1.3: A partir del programa desarrollado en la Actividad 1.2, realizar un nuevo programa que tomando como entrada un fichero de texto, obtenga como salida un nuevo fichero con las siguientes características
+#El fichero de texto de salida debe:
+#-Comenzar exactamente por los mismos contenidos del fichero de entrada
+#-Incluir a continuación una línea adicional con una secuencia de 8 caracteres en hexadecimal (se utilizará la representación en minúsculas de las letras a-z) seguida de un blanco seguida del identificador del estudiante o grupo en el siguiente formato: G01, G31 (ej. estudiantes identificador 1 e identificador 31), G0327 (ej. grupo compuesto por los estudiantes con identificadores 3 y 27.
+#-El resumen SHA-256 del fichero debe comenzar por por la secuencia de 0s más larga que se pueda obtener en un minuto de ejecución del programa
+
+
 import hashlib, sys, shutil
 import random, string
 
