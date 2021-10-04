@@ -1,3 +1,7 @@
+#Actividad 2.3: Realizar un programa que, tomando como entrada dos ficheros de texto, obtenga como salida el resultado de comprobar si
+# Uno de los ficheros de texto de entrada comienza exactamente por los mismos contenidos que el otro, e incluye a continuación una línea que contiene exactamente el resumen SHA-256 (en versión hex:) del fichero original.
+
+
 import hashlib, sys
 import difflib
 
