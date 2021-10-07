@@ -20,7 +20,7 @@ try:
 		shutil.copyfile(original,copia)
 		with open("{}HEX.txt".format(sys.argv[1][:-4]), 'a') as f:
 			#Generar una secuencia aleatoria
-			sec=''.join(random.choice('abcdef0123456789') for _ in range(6))
+			sec=''.join(random.choice('abcdef0123456789') for _ in range(8))
 			#Guarda el documento con la línea adicional.
 			f.write("{} {}\n".format(sec,"JANT33"))
 		with open("{}HEX.txt".format(sys.argv[1][:-4]), 'rb') as f2:
