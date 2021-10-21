@@ -1,3 +1,4 @@
+#Lab4_1_3
 #Actividad 1.3: A partir del programa desarrollado en la Actividad 1.2, realizar un nuevo programa que tomando como entrada un fichero de texto, obtenga como salida un nuevo fichero con las siguientes características
 #El fichero de texto de salida debe:
 #-Comenzar exactamente por los mismos contenidos del fichero de entrada
@@ -22,12 +23,12 @@ try:
 			#Generar una secuencia aleatoria
 			sec=''.join(random.choice('abcdef0123456789') for _ in range(8))
 			#Guarda el documento con la línea adicional.
-			f.write("{} {}\n".format(sec,"JANT33"))
+			f.write("{} {}\n".format(sec,"G33"))
 		with open("{}HEX.txt".format(sys.argv[1][:-4]), 'rb') as f2:
 			archivo1 = f2.read()
 			#Calcula el resumen
 			resumen = str(hashlib.sha256(archivo1).hexdigest())
-		if resumen.startswith("0000"):
+		if resumen.startswith("00000"):
 			print(AMARILLO + "El documento {} se ha actualizado.".format(sys.argv[1])+BLANCO)
 			exit(1)		
 #Si el fichero no existe devuelve un error.
